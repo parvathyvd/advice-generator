@@ -51,6 +51,26 @@ body{
 .advice__content{
     padding-top: 3rem;
 }
+.advice__content::before{
+    content: "\201C";
+    display: inline;
+    height: 1rem;
+    width: 1rem;
+    color: #fff;
+    position: relative;
+    top: 0;
+    left: 0;;
+}
+.advice__content::after{
+    content: "\201D";
+    display: inline;
+    height: 1rem;
+    width: 1rem;
+    color: #fff;
+    position: relative;
+    top: 0;
+    left: 0;;
+}
 .advice__seperator{
     padding: 3rem 0 0rem;
 }
