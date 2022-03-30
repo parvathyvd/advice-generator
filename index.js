@@ -11,7 +11,7 @@ const getAdvice = async () => {
     const advice = data.slip;
     console.log(advice)
     advice__id__val.innerHTML = `Advice # ${advice.id}`;
-    advice__content.innerHTML = advice.advice;
+    advice__content.innerHTML = `"${advice.advice}"`;
 }
 
 document.addEventListener("DOMContentLoaded", getAdvice);
